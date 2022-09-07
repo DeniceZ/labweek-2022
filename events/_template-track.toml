@@ -1,34 +1,34 @@
 # the name of your track or event
-name = "My Track Name"
+name = "PL Summit"
 
 # the name of the group organizing the event
-org = "Your Org"
+org = "Spaceport"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@yourname"
+dri = "@Juan"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://ipfs-althing.io"
+website = "https://labweek2022.on.fleek.co/"
 
 # the start date of the event
-date = "2022-07-11"
+date = "2022-10-24"
 
 # how many days the event lasts (1 - N)
 days = 1
 
 # the event times (shows up in the event card)
-times = "09:00 - 17:00"
+times = "18:00 - 20:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "Convento do Beato"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = ""
 
 # the max number of attendees of the event
-attendees = "100"
+attendees = "1000"
 
 # these is unsued:
 # tickets = "Waitlist"
@@ -39,7 +39,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Talks", "Workshops"]
+tags = ["Conference"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -48,7 +48,7 @@ tags = ["Talks", "Workshops"]
 # will show up when the user clicks the event card.
 description = """
 
-This is a track
+Join us in kicking off Lab Week with everyone at the PL Summit, open to all!
 
 """
 
@@ -66,79 +66,14 @@ This is a track
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
+startTime="18:00"
+speakers=["@Juan", "@other_speaker_name"]
+title="Welcome and keynote"
 description=""
 
 [[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
-
-[[timeslots]]
-startTime="10:00"
+startTime="19:00"
 speakers=[]
-title="Open Slot"
+title="Social Hour"
 description=""
 
-[[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="13:00"
-speakers=[]
-title="Lunch Break"
-description=""
-
-[[timeslots]]
-startTime="14:00"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="16:15"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Open Slot"
-description=""
